@@ -32,6 +32,8 @@
       <change beforePath="$PROJECT_DIR$/../HelloSharedPrefs/app/build/outputs/logs/manifest-merger-debug-report.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../HelloSharedPrefs/app/build/outputs/logs/manifest-merger-debug-report.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../HelloSharedPrefs/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/../HelloSharedPrefs/build.gradle" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../HelloSharedPrefs/gradle/wrapper/gradle-wrapper.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../HelloSharedPrefs/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Pokemon/app/src/main/java/com/example/android/pokemon/user_interface/MainActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Pokemon/app/src/main/java/com/example/android/pokemon/user_interface/MainActivity.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Pokemon/app/src/main/java/com/example/android/pokemon/user_interface/PokemonViewModel.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Pokemon/app/src/main/java/com/example/android/pokemon/user_interface/PokemonViewModel.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Pokemon/app/src/main/res/menu/menu_main.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Pokemon/app/src/main/res/menu/menu_main.xml" afterDir="false" />
@@ -300,7 +302,7 @@
         <entry file="file://$PROJECT_DIR$/README.md">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="140">
-              <caret line="7" column="67" selection-start-line="7" selection-start-column="67" selection-end-line="7" selection-end-column="67" />
+              <caret line="7" column="91" selection-start-line="7" selection-start-column="91" selection-end-line="7" selection-end-column="91" />
             </state>
           </provider>
         </entry>
@@ -308,7 +310,7 @@
     </leaf>
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -453,6 +455,11 @@
     <property name="not.eligible.for.single.variant.sync" value="true" />
     <property name="settings.editor.selected.configurable" value="AndroidSdkUpdater" />
   </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/app/src/main/res/drawable" />
+    </key>
+  </component>
   <component name="RunDashboard">
     <option name="ruleStates">
       <list>
@@ -527,6 +534,9 @@
       </method>
     </configuration>
   </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
       <changelist id="4037d80c-7267-4281-8517-3fb23c260c40" name="Default Changelist" comment="" />
@@ -571,7 +581,7 @@
     <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="140">
-          <caret line="7" column="67" selection-start-line="7" selection-start-column="67" selection-end-line="7" selection-end-column="67" />
+          <caret line="7" column="91" selection-start-line="7" selection-start-column="91" selection-end-line="7" selection-end-column="91" />
         </state>
       </provider>
     </entry>
