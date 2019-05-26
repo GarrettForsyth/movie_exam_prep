@@ -1,0 +1,61 @@
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:paddingLeft="@dimen/row_item_padding_horizontal"
+    android:paddingTop="@dimen/row_item_padding_top"
+    android:paddingRight="@dimen/row_item_padding_horizontal">
+
+    <TextView
+        android:id="@+id/movie_title"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="Flowers of War"
+        android:textSize="@dimen/movie_title_text_size"
+        android:transitionName="@string/transition_name_title"
+        app:layout_constraintBottom_toTopOf="@id/moving_rating_indicator"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <com.example.android.movieviews.MovieRatingIndicator
+        android:id="@+id/moving_rating_indicator"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        app:layout_constraintBottom_toTopOf="@id/movie_title"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/movie_title"
+        app:maxRating="100"
+        app:numOfPopcorns="10" />
+
+    <ImageView
+        android:id="@+id/thumbnail"
+        android:layout_width="45dp"
+        android:layout_height="68dp"
+        android:layout_margin="@dimen/margin_thumbnail"
+        android:adjustViewBounds="true"
+        android:contentDescription="@string/content_desc_movie_thumbnail"
+        android:scaleType="fitXY"
+        android:transitionName="@string/transition_name_thumbnail"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@id/movie_overview"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/moving_rating_indicator" />
+
+
+    <TextView
+        android:id="@+id/movie_overview"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:maxLines="4"
+        android:paddingTop="@dimen/movie_overview_padding_vertical"
+        android:paddingBottom="@dimen/movie_overview_padding_vertical"
+        android:text="A westerner hides in an orphange in China while Japan occupied parts during WWII. He proceeds to impersonate the priest and attempts to save the young girls who life there."
+        android:textSize="@dimen/movie_overview_text_size"
+        android:transitionName="@string/transition_name_overview"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@id/thumbnail"
+        app:layout_constraintTop_toBottomOf="@id/moving_rating_indicator" />
+</androidx.constraintlayout.widget.ConstraintLayout>

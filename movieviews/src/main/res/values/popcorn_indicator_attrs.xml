@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="MovieRatingIndicator">
+        <attr name="numOfPopcorns" format="integer"/>
+        <attr name="currentRating" format="integer"/>
+        <attr name="maxRating" format="integer"/>
+    </declare-styleable>
+</resources>

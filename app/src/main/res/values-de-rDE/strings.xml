@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">MovieExamPrep</string>
+    <string name="chagne_language">" Sprache ändern"</string>
+    <string name="loading">Wird geladen</string>
+    <string name="content_desc_movie_thumbnail">Filmbildminiatur</string>
+    <string name="no_results">Keine Ergebnisse.</string>
+    <string name="serach_hint">Suche..</string>
+    <string name="settings_activity_title">" die Einstellungen"</string>
+    <string name="action_settings">" die Einstellungen"</string>
+</resources>

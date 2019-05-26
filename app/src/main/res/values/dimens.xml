@@ -1,0 +1,21 @@
+<resources>
+    <dimen name="fab_margin">16dp</dimen>
+    <dimen name="row_item_padding_horizontal">12dp</dimen>
+    <dimen name="row_item_padding_top">12dp</dimen>
+    <dimen name="movie_title_text_size">24sp</dimen>
+    <dimen name="movie_overview_padding_vertical">12dp</dimen>
+    <dimen name="movie_overview_text_size">16sp</dimen>
+    <dimen name="row_item_padding_vertical">12dp</dimen>
+    <dimen name="padding_medium">8dp</dimen>
+    <dimen name="margin_thumbnail">16dp</dimen>
+    <dimen name="movie_detail_overview_text_size">24sp</dimen>
+    <dimen name="movie_detail_title_text_size">40sp</dimen>
+    <dimen name="details_overview_horizontal_margin">24dp</dimen>
+    <dimen name="padding_large">32dp</dimen>
+    <dimen name="margin_regular">24dp</dimen>
+    <dimen name="settings_activity_title_text_size">32sp</dimen>
+    <dimen name="settings_activity_top_margin_size">24dp</dimen>
+    <dimen name="settings_activity_label_text_size">18sp</dimen>
+    <dimen name="label_separation">50dp</dimen>
+    <dimen name="button_text_size">18sp</dimen>
+</resources>

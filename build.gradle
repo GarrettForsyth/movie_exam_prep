@@ -1,0 +1,41 @@
+// Top-level build file where you can add configuration options common to all sub-projects/modules.
+
+buildscript {
+    apply from: 'versions.gradle'
+    addRepos(repositories)
+    dependencies {
+        classpath deps.android_gradle_plugin
+        classpath deps.kotlin.plugin
+        classpath deps.kotlin.allopen
+
+        // NOTE: Do not place your application dependencies here; they belong
+        // in the individual module build.gradle files
+    }
+}
+
+allprojects {
+    addRepos(repositories)
+}
+
+task clean(type: Delete) {
+    delete rootProject.buildDir
+}
+
+ext {
+    archComponentsVersion = "1.1.1"
+    roomVersion = "1.1.1"
+    pagingVersion = "1.0.1"
+    retrofitVersion = "2.4.0"
+    okhttpLoggingInterceptorVersion = "3.11.0"
+
+    buildToolsVersion = "28.0.3"
+    androidxLibVersion = "1.0.0"
+    coreVersion = "1.0.0-beta02"
+    extJUnitVersion = "1.0.0-beta02"
+    runnerVersion = "1.1.0-beta02"
+    rulesVersion="1.1.0-beta02"
+    espressoVersion = "3.1.0-beta02"
+    daggerVersion="2.16" // use this version to avoid a compilation error
+    mockitoVersion="2.22.0"
+    mockitoAndroidVersion="2.22.0"
+}

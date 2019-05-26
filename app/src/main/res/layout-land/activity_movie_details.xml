@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/black"
+    tools:context=".ui.MovieDetailsActivity">
+
+    <ImageView
+        android:id="@+id/thumbnail"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:adjustViewBounds="true"
+        android:scaleType="fitXY"
+        android:contentDescription="@string/content_desc_movie_thumbnail"
+        android:transitionName="@string/transition_name_thumbnail"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/movie_title"
+        style="@style/movie_details_text"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:textAlignment="center"
+        android:paddingTop="@dimen/padding_large"
+        android:text="@string/movie_title_sample"
+        android:textSize="@dimen/movie_title_text_size"
+        android:transitionName="@string/transition_name_title"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintStart_toEndOf="@id/thumbnail"
+        app:layout_constraintEnd_toEndOf="parent"
+        />
+
+
+    <ScrollView
+        android:id="@+id/scrollview"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        app:layout_constraintTop_toBottomOf="@id/movie_title"
+        app:layout_constraintStart_toEndOf="@id/thumbnail"
+        app:layout_constraintEnd_toEndOf="parent"
+        >
+
+        <TextView
+            android:id="@+id/movie_overview"
+            style="@style/movie_details_text"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/details_overview_horizontal_margin"
+            android:layout_marginTop="@dimen/margin_regular"
+            android:layout_marginEnd="@dimen/details_overview_horizontal_margin"
+            android:paddingTop="@dimen/movie_overview_padding_vertical"
+            android:paddingBottom="@dimen/movie_overview_padding_vertical"
+            android:text="@string/movie_overview_sample"
+            android:textSize="@dimen/movie_overview_text_size"
+            android:transitionName="@string/transition_name_overview" />
+    </ScrollView>
+
+    <Button
+        android:id="@+id/button_remind"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="scheduleReminder"
+        android:text="@string/button_label_remind"
+        android:textSize="@dimen/button_text_size"
+        app:layout_constraintStart_toStartOf="@id/thumbnail"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/scrollview"
+        />
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

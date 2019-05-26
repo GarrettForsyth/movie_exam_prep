@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">MovieExamPrep</string>
+    <string name="loading">Caricamento in corso..</string>
+    <string name="serach_hint">Ricerca..</string>
+    <string name="no_results">Nessun risultato.</string>
+    <string name="content_desc_movie_thumbnail">Miniatura dell\'immagine del film</string>
+    <string name="action_settings">Impostazioni</string>
+    <string name="settings_activity_title">Impostazioni</string>
+    <string name="label_silence_notifications">Notifiche di silenzio</string>
+    <string name="chagne_language">Cambia lingua</string>
+</resources>

@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout
+    android:id="@+id/frameLayout"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.MovieDetailsActivity">
+
+    <ImageView
+        android:id="@+id/thumbnail"
+        android:transitionName="@string/transition_name_thumbnail"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:adjustViewBounds="true"
+        android:contentDescription="@string/content_desc_movie_thumbnail"
+        android:scaleType="center" />
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:id="@+id/movie_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingTop="@dimen/padding_large"
+            style="@style/movie_details_text"
+            android:layout_gravity="center_horizontal"
+            android:transitionName="@string/transition_name_title"
+            android:text="@string/movie_title_sample"
+            android:textSize="@dimen/movie_title_text_size" />
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:id="@+id/movie_overview"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="@dimen/details_overview_horizontal_margin"
+                android:layout_marginEnd="@dimen/details_overview_horizontal_margin"
+                android:layout_marginTop="@dimen/margin_regular"
+                android:paddingTop="@dimen/movie_overview_padding_vertical"
+                android:paddingBottom="@dimen/movie_overview_padding_vertical"
+                style="@style/movie_details_text"
+                android:transitionName="@string/transition_name_overview"
+                android:text="@string/movie_overview_sample"
+                android:textSize="@dimen/movie_overview_text_size" />
+        </ScrollView>
+
+        <Button
+            android:id="@+id/button_remind"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="scheduleReminder"
+            android:layout_gravity="center_horizontal"
+            android:text="@string/button_label_remind"
+            android:textSize="@dimen/button_text_size" />
+
+
+    </LinearLayout>
+
+
+</FrameLayout>
